@@ -90,10 +90,16 @@ firstp {
     margin-left: 30px;
     margin-right: 30px;
     width: 100%; // or any fixed value you want
-    height: 100px; // or any fixed value you want
-    overflow: hidden;
-	display: flex;
+    height: auto; // adjust this as needed
+    display: flex;
     justify-content: center;
     align-items: center;
-}
 
+    .carousel-inner {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
