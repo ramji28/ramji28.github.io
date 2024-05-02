@@ -30,7 +30,7 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ram_color_filter.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/pld.jpg" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/pld.png" alt="Slide 3" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Ram_sensor.jpg" alt="Slide 4" />
