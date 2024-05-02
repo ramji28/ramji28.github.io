@@ -52,8 +52,11 @@ permalink: /
   </a>
 </div>
 
+Welcome to the forefront of photonics research at our lab! Delving into the captivating realms of plasmonics, wide band semiconductors, solar cells, photodetectors, and metasurfaces, we are dedicated to unraveling the mysteries of light-matter interactions and harnessing their potential for groundbreaking technological advancements. The lab is led by Prof Anirban Mitra. Our lab is situated within the esteemed [Department of Physics at the Indian Institute of Technology Roorkee](https://ph.iitr.ac.in/) .  With a passion for innovation and a commitment to pushing the boundaries of scientific exploration, our interdisciplinary team collaborates tirelessly to pioneer solutions that shape the future of optics and photonics. Explore our homepage to discover the latest developments, ongoing projects, and exciting opportunities to join us in shaping the next generation of photonics technologies. 
 
-We are a dynamic research group, at the [Indian institute of technology Roorkee](http://www.physics.leidenuniv.nl) and soon at [LMU](https://www.physik.lmu.de/en/index.html). Our aim is to explore and understand quantum materials, including strange metals, high-temperature superconductors, and quantum critical electron matter. To this end, we develop new quantum sensing and quantum imaging instrumentation to get the key quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the scientific questions we deem most important (see [Research](research)). 
+For More detaials about the research being conducted please vist the page [here](research) 
+
+We are a dynamic research group, at the [Indian institute of technology Roorkee](https://ph.iitr.ac.in/). Our aim is to explore and understand quantum materials, including strange metals, high-temperature superconductors, and quantum critical electron matter. To this end, we develop new quantum sensing and quantum imaging instrumentation to get the key quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the scientific questions we deem most important (see [Research](research)). 
 
 
 We are very much looking forward to being part of [LMU physics](https://www.physik.lmu.de/en/index.html)! We will build up our instruments right in the center of the city, in the “Sommerfeldkeller”, where Sommerfeld himself worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials.
