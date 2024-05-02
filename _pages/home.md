@@ -36,7 +36,7 @@ permalink: /
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Ram_sensor.jpg" alt="Slide 4" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/Fig_Science_Web.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/ellipsometry.png" alt="Slide 5" />
         </div>       
          <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/BSCCO2gap2.jpg" alt="Slide 6" />
@@ -60,8 +60,8 @@ For More detaials about the research being conducted please vist the page [here]
 
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/1.jpg" style="width: 210px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/HPL_logo.jpg" style="width: 210px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/1.jpg" style="width: 110px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
 </figure>
