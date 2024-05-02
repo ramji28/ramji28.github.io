@@ -52,28 +52,15 @@ permalink: /
   </a>
 </div>
 
-Welcome to the forefront of photonics research at our lab! Delving into the captivating realms of plasmonics, wide band semiconductors, solar cells, photodetectors, and metasurfaces, we are dedicated to unraveling the mysteries of light-matter interactions and harnessing their potential for groundbreaking technological advancements. The lab is led by Prof Anirban Mitra. Our lab is situated within the esteemed [Department of Physics at the Indian Institute of Technology Roorkee](https://ph.iitr.ac.in/) .  With a passion for innovation and a commitment to pushing the boundaries of scientific exploration, our interdisciplinary team collaborates tirelessly to pioneer solutions that shape the future of optics and photonics. Explore our homepage to discover the latest developments, ongoing projects, and exciting opportunities to join us in shaping the next generation of photonics technologies. 
+Welcome to the forefront of photonics research at our lab! Delving into the captivating realms of plasmonics, wide band semiconductors, solar cells, photodetectors, and metasurfaces, we are dedicated to unraveling the mysteries of light-matter interactions and harnessing their potential for groundbreaking technological advancements. Additionally, we are at the cutting edge of integrating artificial intelligence into photonics and material studies, leveraging its power to enhance our understanding and optimization of complex systems. The lab is led by [Prof Anirban Mitra](https://www.iitr.ac.in/~PH/mitrafph) . Our lab is situated within the esteemed [Department of Physics at the Indian Institute of Technology Roorkee](https://ph.iitr.ac.in/) .  With a passion for innovation and a commitment to pushing the boundaries of scientific exploration, our interdisciplinary team collaborates tirelessly to pioneer solutions that shape the future of optics and photonics. Explore our homepage to discover the latest developments, ongoing projects, and exciting opportunities to join us in shaping the next generation of photonics technologies. 
 
 For More detaials about the research being conducted please vist the page [here](research) 
-
-We are a dynamic research group, at the [Indian institute of technology Roorkee](https://ph.iitr.ac.in/). Our aim is to explore and understand quantum materials, including strange metals, high-temperature superconductors, and quantum critical electron matter. To this end, we develop new quantum sensing and quantum imaging instrumentation to get the key quantum mechanical degrees of freedom. We want to be able to build the perfect instruments to answer the scientific questions we deem most important (see [Research](research)). 
-
-
-We are very much looking forward to being part of [LMU physics](https://www.physik.lmu.de/en/index.html)! We will build up our instruments right in the center of the city, in the “Sommerfeldkeller”, where Sommerfeld himself worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials.
-
-Our move to LMU will likely start around Summer 2024, depending on the state of renovations. 
-
-Currently, we are located at Leiden University, the birthplace of superconductivity and home to Kamerlingh Onnes, Lorentz, Huygens, Einstein, de Sitter, and others (see e.g. [the wall of signatures from Ehrenfest lecturers](https://www.lorentz.leidenuniv.nl/history/colloquium/muur_heel.html)). 
-
-We are grateful for funding from Leiden University, [LMU ](https://www.lmu.de) [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting and consolidator grants](https://erc.europa.eu/funding/starting-grants).
 
  **We are  looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 
-
-
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 210px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/1.jpg" style="width: 210px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Nanofront.jpg" style="width: 110px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NWO.jpg" style="width: 120px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 110px">
