@@ -9,7 +9,7 @@ permalink: /team/
   **Prof.Anirban Mitra**
  {% for prof in site.data.pi %}
 <div class="col-sm-1 clearfix">
- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ prof.photo }}" class="img-responsive" width="25%" style="float: left" />
+ 
  <h4>{{ prof.name }}</h4>
  <i>{{ prof.info }} <br>email: <{{ prof.email }}></i> 
  <ul style="overflow: hidden">
