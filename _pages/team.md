@@ -7,7 +7,7 @@ permalink: /team/
 ---
 # PI
   **Prof.Anirban Mitra**
-  <% for prof in site.data.pi %>
+ {% for prof in site.data.pi %}
 <div class="col-sm-6 clearfix">
  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ prof.photo }}" class="img-responsive" width="25%" style="float: left" />
  <h4>{{ prof.name }}</h4>
@@ -16,6 +16,7 @@ permalink: /team/
  <li> {{ prof.education1 }} </li>
  </ul>
 </div>
+ {% endfor %}
 
 # Group Members
 
