@@ -8,7 +8,7 @@ permalink: /team/
 # PI
   **Prof.Anirban Mitra**
 {% for prof in site.data.pi %}
-  <div>
+  <div class="col-sm-6 clearfix">
   
   <h4>{{ prof.name }}</h4>
   <i>{{ prof.info }} <br>email: <{{ prof.email }}></i> 
