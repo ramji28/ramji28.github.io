@@ -7,16 +7,16 @@ permalink: /team/
 ---
 # PI
   **Prof.Anirban Mitra**
- {% for prof in site.data.pi %}
-<div>
- 
- <h4>{{ prof.name }}</h4>
- <i>{{ prof.info }} <br>email: <{{ prof.email }}></i> 
- <ul style="overflow: hidden">
- <li> {{ prof.education1 }} </li>
- </ul>
-</div>
- {% endfor %}
+{% for prof in site.data.pi %}
+  <div>
+  
+  <h4>{{ prof.name }}</h4>
+  <i>{{ prof.info }} <br>email: <{{ prof.email }}></i> 
+  <ul style="overflow: hidden">
+  <li> {{ prof.education1 }} </li>
+  </ul>
+  </div>
+{% endfor %}
 
 # Group Members
 
