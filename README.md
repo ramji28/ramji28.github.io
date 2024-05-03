@@ -1,4 +1,4 @@
-# Allan Lab Website
+# High Power Laser lab
 
 This is the website of our academic research group at Leiden University.
 
