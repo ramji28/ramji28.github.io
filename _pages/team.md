@@ -5,19 +5,6 @@ excerpt: "Allan Lab: Team members"
 sitemap: false
 permalink: /team/
 ---
-# PI
-  **Prof.Anirban Mitra**
-{% for prof in site.data.pi %}
-  
-  
-  <h4>{{ prof.name }}</h4>
-  <i>{{ prof.info }} <br>email: <{{ prof.email }}></i> 
-  <ul style="overflow: hidden">
-  <li> {{ prof.education1 }} </li>
-  </ul>
-  
-{% endfor %}
-
 # Group Members
 
  **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
