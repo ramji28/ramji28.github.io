@@ -1,10 +1,10 @@
 - name: Ramprakash S
   photo: Anirban_Mitra.jpg
   info: Dept of Physics, joined june 2019
-  email: ramprakash@gmail.com
-  number_educ: 2
-  education1: Photonics,plasmonics
-  education2: SLMs
+  email: rprakash@ph.iitr.ac.in
+  number_educ: 1
+  education1: Design of Tunable perfect absorbers
+  education2: 
   education3:
   education4:
 
@@ -18,24 +18,33 @@
   education3:
   education4:
 
-- name: Ramprakash S
+- name: Kartikey Bhardwaj
   photo: Anirban_Mitra.jpg
-  info: Dept of Physics, joined june 2019
-  email: ramprakash@gmail.com
+  info: Dept of Physics, joined july 2021
+  email: karthikey_b@ph.iitr.ac.in
   number_educ: 2
   education1: Photonics,plasmonics
   education2: SLMs
   education3:
   education4:
 
-- name: Ramprakash S
+- name: Siddhartha Panwar
   photo: Anirban_Mitra.jpg
-  info: Dept of Physics, joined june 2019
-  email: ramprakash@gmail.com
+  info: Dept of Physics, joined jan 2023
+  email: siddhartha_p@ph.iitr.ac.in
   number_educ: 2
   education1: Photonics,plasmonics
   education2: SLMs
   education3:
   education4:
 
+ name: Midhun AR
+  photo: Anirban_Mitra.jpg
+  info: CPQCT, joined jan 2023
+  email: ramprakash@gmail.com
+  number_educ: 2
+  education1: Photonics,plasmonics
+  education2: SLMs
+  education3:
+  education4:
 
