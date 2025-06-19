@@ -16,7 +16,7 @@ timezone:
 
 title: Ram Prakash Shanmugam # the main title
 
-tagline: Researcher in Nanophotonics # it will display as the subtitle
+tagline: Researcher in Nanophotonics PostDoc at <a href="https://www.lcf.institutoptique.fr/en/groups/nanophotonics/">IOGS</a> # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
