@@ -1,0 +1,106 @@
+{% assign publications = site.data.publications | sort: "date" | reverse %}
+
+{% capture publication-list %}
+  {% for publication in publications %}
+    <article id="{{ publication.id }}" class="card-wrapper">
+      <div class="card post-preview-with-anchor flex-md-row-reverse">
+        {% if publication.image %}
+          {% if publication.image.lqip %}
+            {% capture lqip %}lqip="{{ publication.image.lqip }}"{% endcapture %}
+          {% endif %}
+
+          {% assign src = publication.image.path | default: publication.image %}
+          {% unless src contains '//' %}
+            {% assign src = publication.img_path | append: '/' | append: src | replace: '//', '/' %}
+          {% endunless %}
+
+          {% assign alt = publication.image.alt | xml_escape | default: 'Preview Image' %}
+
+          <img src="{{ src }}" w="17" h="10" alt="{{ alt }}" {{ lqip }}>
+        {% endif %}
+
+        <div class="card-body d-flex flex-column no-min-height">
+          <h1 class="card-title my-2 mt-md-0">
+            {{ publication.title }}
+          </h1>
+
+          <div class="post-meta flex-grow-1 d-flex align-items-end">
+            <div class="me-auto">
+              <!-- Download paper -->
+              {% if publication.download %}
+                <span
+                  class="ms-1"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Get paper"
+                >
+                  <a href="{{ publication.download }}">
+                    <i class="fas fa-file-circle-check fa-fw"></i>
+                  </a>
+                </span>
+              {% endif %}
+              <!-- arXiv -->
+              {% if publication.arxiv %}
+                <span
+                  class="ms-1"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="arXiv"
+                >
+                  <em>
+                    <a href="{{ publication.arxiv }}">
+                      <img alt="arXiv logo" class="me-1" style="width: auto; height: 1em;" src="/assets/images/arXiv_logo.svg">
+                    </a>
+                  </em>
+                </span>
+              {% endif %}
+              <!-- DOI -->
+              {% if publication.doi %}
+                <span
+                  class="ms-1"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="DOI"
+                >
+                  <a href="https://doi.org/{{ publication.doi }}">
+                    {{ publication.doi }}
+                  </a>
+                </span>
+              {% endif %}
+              <!-- BibTeX file -->
+              {% if publication.bibtex %}
+                <span
+                  class="ms-1"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="bottom"
+                  title="Get citation"
+                >
+                  <a href="{{ publication.bibtex }}">
+                    <img alt="BibTeX logo" class="filter-text-muted me-1" style="width: auto; height: 1em;" src="/assets/images/BibTeX_logo.svg">
+                  </a>
+                </span>
+              {% endif %}
+              <!-- categories -->
+              {% if publication.tags.size > 0 %}
+                <i class="far fa-folder-open fa-fw ms-1"></i>
+                <span class="categories">
+                  {% for tag in publication.tags %}
+                    {{ tag }}
+                    {%- unless forloop.last -%},{%- endunless -%}
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </div>
+          </div>
+          <!-- .post-meta -->
+        </div>
+        <!-- .card-body -->
+      </div>
+    </article>
+  {% endfor %}
+{% endcapture %}
+
+<div id="post-list" class="flex-grow-1 pe-xl-2">
+  {{ publication-list }}
+</div>
+<!-- #post-list -->
