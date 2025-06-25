@@ -2,8 +2,8 @@
 
 {% capture publication-list %}
   {% for publication in publications %}
-    <article id="{{ publication.id }}" class="card-wrapper">
-      <div class="card post-preview-with-anchor flex-md-row-reverse">
+  <article id="{{ publication.id }}" class="card-wrapper">
+    <a href="/publications/{{ publication.id }}/" class="card post-preview-with-anchor flex-md-row-reverse text-decoration-none text-reset">
         {% if publication.image %}
           {% if publication.image.lqip %}
             {% capture lqip %}lqip="{{ publication.image.lqip }}"{% endcapture %}
@@ -95,7 +95,7 @@
           <!-- .post-meta -->
         </div>
         <!-- .card-body -->
-      </div>
+      </a>
     </article>
   {% endfor %}
 {% endcapture %}

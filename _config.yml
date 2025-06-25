@@ -16,6 +16,7 @@ future: true # Enable the future posts
 
 title: Ram Prakash Shanmugam # the main title
 
+
 tagline: Researcher in Nanophotonics PostDoc at <a href="https://www.lcf.institutoptique.fr/en/groups/nanophotonics/">IOGS</a> # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
@@ -169,6 +170,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  publications:
+    output: true
+    permalink: /publications/:name/
 
 defaults:
   - scope:
@@ -223,3 +227,9 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# collections:
+#   publications:
+#     output: true
+#     permalink: /publications/:name/
+
