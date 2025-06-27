@@ -1,22 +1,76 @@
-- id: deep-learning-paper
-  title: "Deep Learning for Vision"
-  date: 2024-09-01
+- id: acsphotoncis2024
+  title: Electrically reconfigurable phase change material-based metamaterial absorber for broadband molecular fingerprint retrieval
+  journal: ACS Photonics
+  date: 2024-02-01
   abstract: >
-    We present a novel architecture for computer vision using deep neural networks.
-  authors: "Alice Smith, Bob Jones"
-  # doi: 10.1234/dl.2024.56789
-  # arxiv: https://arxiv.org/abs/2401.12345
-  # download: /assets/papers/deep-learning.pdf
-  # bibtex: /assets/bibtex/deep-learning.bib
-  tags: [Deep Learning, Computer Vision]
+    Optical phase-change materials are highly promising for emerging applications such as tunable metasurfaces, reconfigurable photonic circuits, and non-von Neumann computing. However, these materials typically require both high melting temperatures and fast quenching rates to reversibly switch between their crystalline and amorphous phases: a significant challenge for large-scale integration. In this work, we use temperature-dependent ellipsometry to study the thermo-optic effect in GST and use these results to demonstrate an experimental technique that leverages the thermo-optic effect in GST to enable both spatial and temporal thermal measurements of two common electro-thermal microheater designs currently used by the phase-change community. Our approach shows excellent agreement between experimental results and numerical simulations and provides a noninvasive method for rapid characterization of electrically programmable phase-change devices.
+  authors: "Ram Prakash S, Rajesh Kumar, Anirban Mitra"
+  doi: https://doi.org/10.1021/acsphotonics.4c00276
+  tags: [Metamaterials, Phase Change Materials, SEIRA]
+  # image:
+  #   path: /assets/images/publication/acsphot_img.jpeg
+  #   alt: "Electrically reconfigurable phase change material-based metamaterial absorber for broadband molecular fingerprint retrieval"
 
-- id: quantum-research
-  title: "Quantum Entanglement Experiments"
-  date: 2023-06-15
+- id: advoptmat2025
+  title: AI-Enabled Inverse Design and Molecular Identification Using Phase Change Metamaterial Absorber
+  date: 2025-02-01
+  journal: Advanced Optical Materials
   abstract: >
-    Experimental results on quantum entanglement with superconducting qubits.
-  authors: "Jane Doe, John Qubit"
-  # doi: 10.5678/qe.2023.98765
-  # download: /assets/papers/quantum.pdf
-  # bibtex: /assets/bibtex/quantum.bib
-  tags: [Quantum Physics]
+    Tailoring metamaterial design for desired absorption in the mid-infrared region is pivotal for molecular sensing and identification. Surface-enhanced infrared absorption (SEIRA) spectroscopy with metamaterials promises accurate molecular fingerprint detection. However, challenges arise due to narrow resonant wavelengths and the extensive design space of the metamaterial, thus hindering its application in accurate molecular detection. This work introduces an integrated AI workflow for designing electrically tunable metamaterial absorbers using phase-change materials for broadband molecular fingerprint retrieval and identification. A free-form inverse design method based on a neural-adjoint optimization technique is utilized to predict phase-change metamaterial absorber (PCMA) designs for desired mid-infrared absorption spectra. Using the trained inverse neural network model coupled with a genetic algorithm, nanostructure designs spanning the spectral range from 800 cm−1 to 2000 cm−1 are predicted. The phase change is achieved by integrating the designed PCMA with an energy-efficient microheater, allowing resonant absorption peaks to be tuned via voltage pulses. The neural network-predicted PCMA successfully detected molecular vibration fingerprints of four molecules and their mixtures. A machine learning model based on a support vector machine developed for molecular identification shows 100% identification accuracy. This AI-driven approach for PCMA design and molecular identification via SEIRA marks a significant advancement in accurate molecular detection.
+  authors: "Ram Prakash S, Aastha Jain, Rajesh Kumar, Anirban Mitra"
+  doi: https://doi.org/10.1002/adom.202402407
+  tags: [Metamaterials, Phase Change Materials, SEIRA, Inverse design, Deep Learning]
+  # image:
+  #   path: /assets/images/publication/advopt_img.jpg
+  #   alt: "Electrically reconfigurable phase change material-based metamaterial absorber for broadband molecular fingerprint retrieval"
+
+- id: pnfa2023
+  title: Inverse design of dynamically tunable phase-change material based metamaterial absorber induced structural color
+  date: 2023-02-01
+  journal: Photonics and Nanostructures - Fundamentals and Applications
+  abstract: >
+    Structural colors using phase change material based metasurfaces/metamaterials have enabled high saturation, high resolution, and wide-gamut color printing. The wide color gamut with high resolution is achieved by changing the geometry of the metamaterials. However, finding the design parameter for desired color is computationally costly. Designing such parameters to precisely show the required color is therefore essential for producing metamaterials for use in real-world applications. In this work, we report a tunable reflective metamaterial using Ge2Sb2Te5 (GST) for the generation of structural colors. Exploiting the large contrast in refractive index of GST with the change in phase we can dynamically tune between two different colors. Further, we report an inverse design of tunable reflective metamaterial structure using deep neural network. The inverse design based on bidirectional artificial neural network can accurately predict the design parameter for a desired color. Our results show that tunable color filters using GST nanostructures can be designed accurately and efficiently using deep neural networks and could find potential applications in color printing and display technologies.
+  authors: "Ram Prakash S, Rajesh Kumar, Anirban Mitra"
+  doi: https://doi.org/10.1016/j.photonics.2023.101135
+  tags: [Metamaterials, Phase Change Materials, Color filters, Inverse design, Deep Learning]
+
+- id: ao2022
+  title: Reconfigurable and spectrally switchable perfect absorber based on a phase-change material
+  date: 2022-02-01
+  journal: Applied Optics
+  abstract: >
+    In this paper, we propose a lithography-free spectrally tunable prefect absorber based on an asymmetric Fabry–Perot cavity using GST, a phase-change material, as the cavity layer. The proposed device shows a maximum absorption of 99.7% at 1550 nm, at a particular angle of incidence and polarization when the phase of GST is in the amorphous state. The absorption spectrum is spectrally switched to longer wavelength when the phase of GST is transformed from amorphous to crystalline. The tuning range is about 866 nm, and the maximum absorption is maintained above 99% in the whole tuning range. The crystallinity ratio of GST is varied by applying voltage pulses of different amplitudes and durations. The electrothermal cosimulations show that the phase change is obtained in the whole GST layer. Furthermore, by reamorphization of GST, the absorption spectrum can be switched back, enabling a reconfigurable perfect absorber. This work shows a viable path toward achieving a tunable perfect absorber covering a 1550 nm communication wavelength window as well as an emerging optical communication window around 2 µm wavelength.
+  authors: "Ram Prakash S, Rajesh Kumar, Anirban Mitra"
+  doi: https://doi.org/10.1364/AO.451285
+  tags: [Metamaterials, Phase Change Materials, Fabry Perot cavity]
+
+- id: pnfa2025
+  title: Optimization strategy of ultra-compact metasurface-based filter ordering on sensors for improved spectral retrieval
+  date: 2025-05-01
+  journal: Photonics and Nanostructures - Fundamentals and Applications
+  abstract: >
+    CMOS technologies can provide miniature filters with few-nm passband in the visible, much suited to on-chip spectrometers and hyperspectral imaging. However, crosstalk can become challenging and degrade spectral retrieval at the smallest sizes. A filter/metasurface bank design is a first demanding step for this scope, playing with in-plane patterns/“atoms”. For a miniature device of 10–100 small pixels, each 1–3 μm wide, the filters finite extent incurs an extra penalty: cross-talk between neighbor pixels, hard to minimize through electromagnetic tools. A distinct and useful minimization suited to the CMOS context is then to select the arrangement of N filters on the array to privilege the less penalizing neighbor pairs. This amounts to a path selection problem in the N×(N−1) space of the inter-micro-filter cross-talks. We evaluate the resulting benefit in terms of the condition number of the system’s spectral function matrix, the basic ingredient for spectral retrieval. In one dimension, we find that small arrays can be tackled by brute force up to N∼15 filters, but a minimization through a simply weighted proxy, a summed cross-talk combination, is more advantageous beyond. In two-dimensions, the topology only partly changes the trend. Relevant examples of infinite and finite filters based on amorphous silicon and silica are also provided to justify the choice of a rather broad cross-talk distribution in the inter-filter space. Gains of c−1∕〈c−1〉=1.5–2.5 on the inverse of the condition number c (and thus the accuracy of spectral retrieval) emerge from the study.
+  authors: "Trideeb Bhattacharya, Marie-Anne Burcklen, Mathilde Larché,Mondher Besbes, S. Ram Prakash,Stéphane Monfray, Henri Benisty"
+  doi: https://doi.org/10.1016/j.photonics.2025.101409
+  tags: [Metasurface, CMOS sensor, Fabry Perot cavity, Array spectrometer]
+
+- id: optik2024
+  title: Ni/n-Si Schottky junction Self-biased infrared photodetection via hot carrier photoemission
+  date: 2024-05-01
+  journal: Optik
+  abstract: >
+    Internal photoemission-based hot electron generation at metal-semiconductor junctions holds significant potential for silicon-based sub-bandgap NIR photodetectors. In this work, we designed a simple nickel-silicon Schottky junction using the pulsed laser deposition technique and performed both experimental and theoretical analyses. To reduce the complexity of fabrication and lower costs, we used a planar nickel thin film on top of n-type silicon. The thickness of the nickel thin film was optimized to improve absorption and hot electron generation near the Ni/Si interface. We measured and calculated reflectance using the transfer matrix approach to quantify the effect of thickness on EQE. We also calculated the thickness-dependent absorption profile to estimate hot electron production near the junction. The current-voltage characterization of Ni/n-Si Schottky photodetector was investigated under the dark conditions as well under 1200 nm and 1300 nm light illumination. Under self-bias conditions, a photodiode with a 12 nm Ni thickness exhibits responsivity of 0.124 mA/W and 0.069 mA/W under illumination from 1200 nm and 1300 nm LED light, respectively. Furthermore, we used a comprehensive theoretical model to quantify the planar Ni/Si hot carrier generation and emission efficiency. and experimentally validated the calculated EQEs with the fabricated device. We believe the proposed complementary metal-oxide-semiconductor-compatible and simply structured Ni/Si Schottky photodetector will have potential applications in the silicon-based optoelectronics market.
+  authors: "Dinesh Dudi, S. Ram Prakash,
+Kartikey Bhardwaj, Brahim Aïssa, Anirban Mitra"
+  doi: https://doi.org/10.1016/j.ijleo.2024.172093
+  tags: [Photodetector, Schottky junction, Hot carrier photoemission, Infrared detection]
+
+- id: nanotec2022
+  title: Laser ablation fabrication of a p-NiO/n-Si heterojunction for broadband and self-powered UV-Visible-NIR photodetection
+  date: 2022-01-01
+  journal: Nanotechnology
+  abstract: >
+    We report on the optoelectronic characteristics of p-NiO/n-Si heterojunction photodiodes for broadband photodetection, fabricated by depositing a p-type NiO thin film onto a commercial n-type silicon substrate using pulsed laser deposition (PLD) technique. The structural properties of the PLD-grown p-NiO material were analysed by means of X-ray diffraction (XRD) and X-ray photoelectron spectroscopy (XPS), confirming its crystalline nature and revealing the presence of Ni vacancies, respectively. Hall measurements confirmed the p-type semiconducting nature of the NiO thin film having a carrier concentration of 8.4 × 1016 cm-3. The current-voltage (I-V) characteristics of the p-NiO/n-Si heterojunction photodevice were investigated under different wavelengths ranging from UV to NIR. The self-bias properties under different illuminations of light were also explored systematically. Under self-bias condition, the photodiode exhibits excellent responsivities of 12.5 mA.W-1, 24.6 mA.W-1 and 30.8 mA.W-1 with illumination under 365 nm, 485 nm, and 850 nm light, respectively. In addition, the time dependency of the photoresponse of the fabricated photodevice has also been investigated and discussed thoroughly.
+  authors: "Savita Chaoudhary, Avijit Dewasi, Ram Prakash S, Vipul Rastogi, Rui N Pereira, Alessandro Sinopoli, Brahim Aïssa and Anirban Mitra"
+  doi: https://doi.org/10.1088/1361-6528/ac5ca6
+  tags: [Photodetector, Metal-Oxide semiconductors, Infrared detection]

@@ -1,3 +1,26 @@
-a {
-  color: blue;
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+.publication-entry {
+  background-color: var(--card-bg);
+  border: 1px solid rgba(140, 140, 140, 0.2);  // light gray border (not white)
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);  // darker base shadow
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
+
+.publication-entry:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);  // deeper shadow on hover
+  transform: translateY(-2px);
+}
+
+

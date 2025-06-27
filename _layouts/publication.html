@@ -3,32 +3,67 @@ layout: default
 ---
 
 <article class="container py-5">
+
+  {% if page.image.path %}
+  <img
+    src="{{ page.image.path }}"
+    alt="{{ page.image.alt | default: 'Publication image' }}"
+    style="width: 100%; max-width: 100%; height: 300px; object-fit: cover;"
+    class="my-3 rounded">
+{% endif %}
+
+
   <h1>{{ page.title }}</h1>
+
+
+
   {% if page.authors %}
     <p><strong>Authors:</strong> {{ page.authors }}</p>
   {% endif %}
+
+  {% if page.journal %}
+    <p><strong>Journal:</strong> {{ page.journal }}</p>
+  {% endif %}
+
   <p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
 
   {% if page.doi %}
     <p><strong>DOI:</strong> <a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
   {% endif %}
 
-  {% if page.arxiv %}
-    <p><strong>arXiv:</strong> <a href="{{ page.arxiv }}">{{ page.arxiv }}</a></p>
-  {% endif %}
 
-  {% if page.download %}
-    <p><strong>Download:</strong> <a href="{{ page.download }}">PDF</a></p>
-  {% endif %}
-
-  {% if page.bibtex %}
-    <p><strong>BibTeX:</strong> <a href="{{ page.bibtex }}">BibTeX</a></p>
-  {% endif %}
-
-  {% if page.tags %}
+  <!-- {% if page.tags %}
     <p><strong>Tags:</strong> {{ page.tags | join: ', ' }}</p>
+  {% endif %} -->
+
+  {% if page.abstract %}
+    <h2 class="mt-4">Abstract</h2>
+    <p>{{ page.abstract }}</p>
   {% endif %}
 
-  <h2 class="mt-4">Abstract</h2>
-  <p>{{ page.abstract }}</p>
+  <!-- {% if page.tags %}
+    <div class="mt-4">
+      <i class="far fa-folder-open fa-fw text-muted"></i>
+      {% for tag in page.tags %}
+        <a class="badge rounded-pill bg-light text-muted border me-1" href="{{ '/tags/' | append: tag | append: '/' }}">
+          #{{ tag }}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %} -->
+
+  {% if page.tags.size > 0 %}
+      <div class="post-tags">
+        <i class="fa fa-tags fa-fw me-1"></i>
+        {% for tag in page.tags %}
+          <a
+            href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+            class="post-tag no-text-decoration"
+          >
+            {{- tag -}}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
 </article>
