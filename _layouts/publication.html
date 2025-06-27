@@ -41,18 +41,19 @@ layout: default
     <p>{{ page.abstract }}</p>
   {% endif %}
 
-  <!-- {% if page.tags %}
+  {% if page.tags %}
     <div class="mt-4">
       <i class="far fa-folder-open fa-fw text-muted"></i>
       {% for tag in page.tags %}
-        <a class="badge rounded-pill bg-light text-muted border me-1" href="{{ '/tags/' | append: tag | append: '/' }}">
+        <a class="post-tag no-text-decoration">
           #{{ tag }}
-        </a>
+
+</a>
       {% endfor %}
     </div>
-  {% endif %} -->
+  {% endif %}
 
-  {% if page.tags.size > 0 %}
+  <!-- {% if page.tags.size > 0 %}
       <div class="post-tags">
         <i class="fa fa-tags fa-fw me-1"></i>
         {% for tag in page.tags %}
@@ -61,9 +62,11 @@ layout: default
             class="post-tag no-text-decoration"
           >
             {{- tag -}}
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %} -->
+
+
 
 </article>
