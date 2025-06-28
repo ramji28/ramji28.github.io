@@ -1,42 +1,49 @@
 {% assign publications = site.data.publications | sort: "date" | reverse %}
 
+{% assign current_year = "" %}
+
 <div id="post-list" class="pe-xl-2">
   {% for publication in publications %}
-  <article id="{{ publication.id }}" class="publication-entry mb-4">
-    <a href="/publications/{{ publication.id }}/" class="text-decoration-none text-reset">
-      <h2 class="h6 fw-semibold mb-2">{{ publication.title }}</h2>
-    </a>
+    {% assign pub_year = publication.date | slice: 0, 4 %}
 
-    {% if publication.authors %}
-      <div class="text-muted small mb-0">
-        {{ publication.authors }}
-      </div>
+    {% if pub_year != current_year %}
+      {% assign current_year = pub_year %}
+      <h3 class="mt-4">{{ current_year }}</h3>
     {% endif %}
 
-    {% if publication.journal %}
-      <div class="text-muted small fst-italic mb-2">
-        {{ publication.journal }}
+    <article id="{{ publication.id }}" class="publication-entry mb-4">
+      <a href="/publications/{{ publication.id }}/" class="text-decoration-none text-reset">
+        <h2 class="h6 fw-semibold mb-2">{{ publication.title }}</h2>
+      </a>
+
+      {% if publication.authors %}
+        <div class="text-muted small mb-0">
+          {{ publication.authors }}
+        </div>
+      {% endif %}
+
+      {% if publication.journal %}
+        <div class="text-muted small fst-italic mb-2">
+          {{ publication.journal }}
+        </div>
+      {% endif %}
+
+      <div class="post-meta d-flex flex-wrap gap-2 small text-muted">
+        {% if publication.doi %}
+          <a href="https://doi.org/{{ publication.doi }}" class="text-muted" title="DOI">
+            {{ publication.doi }}
+          </a>
+        {% endif %}
+
+        {% if publication.tags %}
+          <span>
+            <i class="far fa-folder-open fa-fw"></i>
+            {% for tag in publication.tags %}
+              <span class="me-1 text-muted">{{ tag }},</span>
+            {% endfor %}
+          </span>
+        {% endif %}
       </div>
-    {% endif %}
-
-    <div class="post-meta d-flex flex-wrap gap-2 small text-muted">
-
-      {% if publication.doi %}
-        <a href="https://doi.org/{{ publication.doi }}" class="text-muted" title="DOI">
-          {{ publication.doi }}
-        </a>
-      {% endif %}
-
-
-      {% if publication.tags %}
-        <span>
-          <i class="far fa-folder-open fa-fw"></i>
-          {% for tag in publication.tags %}
-            <span class="me-1 text-muted">{{ tag }},</span>
-          {% endfor %}
-        </span>
-      {% endif %}
-    </div>
-  </article>
+    </article>
   {% endfor %}
 </div>
