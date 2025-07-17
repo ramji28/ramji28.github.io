@@ -1,0 +1,25 @@
+{% assign url = include.url %}
+{% assign skip_manim_citation = include.skip_manim_citation is sameas false %}
+
+You can view the presentation slides below. These were created using **Manim Slides**, inspired by the 3Blue1Brown style.
+
+Use basic keys like <kbd>LEFT</kbd> and <kbd>RIGHT</kbd> to navigate through slides, or <kbd>F</kbd> to go full screen.
+
+<div style="position:relative;padding-bottom:56.25%;">
+    <!-- 56.25 comes from aspect ratio of 16:9, change this accordingly -->
+    <iframe
+        style="width:100%;height:100%;position:absolute;left:0px;top:0px;"
+        frameborder="0"
+        width="100%"
+        height="100%"
+        allowfullscreen
+        allow="autoplay"
+        src="{{ url }}">
+    </iframe>
+</div>
+
+{% unless skip_manim_citation %}
+The slides were generated using the [Manim](https://www.manim.community/) animation engine and [Manim Slides](https://manim-slides.eertmans.be/latest/).
+{% endunless %}
+
+Feel free to explore the animation and reach out if you have any questions!
