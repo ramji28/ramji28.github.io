@@ -13,6 +13,6 @@ Hello! I am Ram Prakash and welcome to my personal website!
 
 I am a postdoctoral researcher at the [Laboratoire Charles Fabry, Institut d'Optique Graduate School (IOGS)](https://www.lcf.institutoptique.fr/en/groups/nanophotonics) specializing in the field of nanophotonics. I completed my PhD at the Indian Institute of Technology Roorkee under the guidance of [Prof. Anirban Mitra](https://iitr.ac.in/Departments/Physics%20Department/People/Faculty/100515.html).
 
-My research mainly focuses on the design of metamaterials and metasurfaces for varoius photonics appliactions including hyperspectral imaging, tunable color filters and molecular fingerprint detections. For detailed information about my research see my publications [here]. You can also see my CV [here].
+My research mainly focuses on the design of metamaterials and metasurfaces for varoius photonics appliactions including hyperspectral imaging, tunable color filters and molecular fingerprint detections. For detailed information about my research see my publications [here]. You can also see my CV [here](/assets/pdfs/CV_Ram.pdf).
 
 Feel free to reach out if you'd like to discuss research, collaboration, or anything else!
