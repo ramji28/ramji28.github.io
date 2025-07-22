@@ -3,9 +3,9 @@
 
 Hello, I'm Ram Prakash Shanmugam. 
 
-This is the my github page of my personal [website](https://rprakash.com/). The website is based on the [**Chirpy**][chirpy]. I have modified the theme for my need. 
+This is the github page of my personal [website](https://rprakash.com/). The website is based on the [**Chirpy**][chirpy] theme. I have modified the theme for my needs. 
 
-Please feel to fork it and modfiy for your need. 
+Please feel to fork it and modify for your needs. 
 
 ## License
 
