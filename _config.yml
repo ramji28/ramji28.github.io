@@ -98,6 +98,11 @@ theme_mode: # [light | dark]
 # e.g. 'https://cdn.com'
 cdn:
 
+html_proofer:
+  disable_external: true
+  check_html: false
+
+
 # # For code folding
 # markdown: kramdown
 # kramdown:
