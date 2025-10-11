@@ -25,7 +25,7 @@ This post serves as a **summary and navigation page** — linking to detailed po
 These are the basic on-chip elements for routing and manipulating light.
 
 - [**Directional Coupler**](/posts/DirectionalCoupler/) – Design and simulation of a compact Si directional coupler.
-- [**Y-Branch Splitter**](/posts/ybranch) – Power splitting using adiabatic Y-junctions.
+- [**Y-Branch Splitter**](/posts/ybranch/) – Power splitting using adiabatic Y-junctions.
 - [**Ring Resonator**](/posts/ring_resonator/) – Resonant filtering and wavelength-selective behavior.
 - [**Bragg Grating**]() – Wavelength reflection and filtering with periodic structures.
 - [**Mach–Zehnder Interferometer (MZI)**]() – Phase-controlled interferometric filter.
