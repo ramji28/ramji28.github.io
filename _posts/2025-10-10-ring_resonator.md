@@ -3,7 +3,7 @@
 title: "Ring Resonator"  
 date: 2025-10-10 
 categories: Photonics
-tags: MEEP, FDTD, couplers, Silicon  
+tags: [gdsfactory, klayout, meep, silicon-photonics, simulation, design]  
 pin: false  
 math: true
 image:  
