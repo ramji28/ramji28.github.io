@@ -8,8 +8,8 @@ categories: [Projects, Photonics]
 tags: [gdsfactory, klayout, meep, silicon-photonics, simulation, design]
 description: "Overview of the integrated photonic components I’ve been designing using GDSFactory, KLayout, and MEEP."
 image:  
-  path: /assets/images/misc/integrated.png  
-  alt: "Artistic representation integraed photonics components - Created with Gemini"  
+  path: /assets/images/misc/Circuit.png  
+  alt: "Splitter to DBR created with GDSFactory"  
 
 ---
 
@@ -58,3 +58,37 @@ Stay tuned — I’ll be publishing detailed writeups for each of these componen
 - Optimization steps
 
 You can follow the [**Photonics Project Series**](/categories/photonics/) to see all related posts as they’re added.
+
+## Code for the title circuit image
+```python
+import gdsfactory as gf
+import gdsfactory.schematic as gt
+import yaml
+
+n = 2**3
+splitter = gf.components.splitter_tree(noutputs=n, spacing=(50, 50))
+dbr_array = gf.components.array(
+    component=gf.c.dbr, rows=n, columns=1, column_pitch=0, row_pitch=3, centered=True
+)
+s = gt.Schematic()
+s.add_instance("s", gt.Instance(component=splitter))
+s.add_instance("dbr", gt.Instance(component=dbr_array))
+s.add_placement("s", gt.Placement(x=0, y=0))
+s.add_placement("dbr", gt.Placement(x=300, y=0))
+
+for i in range(n):
+    s.add_net(
+        gt.Net(
+            p1=f"s,o2_2_{i+1}",
+            p2=f"dbr,o1_{i+1}_1",
+            name="splitter_to_dbr",
+            settings=dict(radius=5, sort_ports=True, cross_section="strip"),
+        )
+    )
+
+conf = s.netlist.model_dump(exclude_none=True)
+yaml_component = yaml.safe_dump(conf)
+circuit = gf.read.from_yaml(yaml_component)
+circuit.plot()
+```
+![png](/assets/images/misc/Circuit.png)
