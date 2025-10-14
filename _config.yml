@@ -104,9 +104,9 @@ html_proofer:
 
 
 # # For code folding
-# markdown: kramdown
-# kramdown:
-#   parse_block_html: true
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 
 # the avatar on sidebar, support local or CORS resources
 avatar: assets/images/profile.jpg # string, local or CORS resources

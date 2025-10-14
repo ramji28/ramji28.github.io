@@ -8,6 +8,10 @@
 {%- endif -%}
 ';
 
+/* import GitHub syntax highlighting */
+// @use "addon/rouge/github-dark" as github-dark;
+@use "syntax-dark";
+
 /* append your custom style below */
 .publication-entry {
   background-color: var(--card-bg);
