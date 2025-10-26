@@ -1121,8 +1121,7 @@ plt.show()
     
 
 
-    Peak transmission: 0.0271
-    Resonance wavelength: 1.4817 μm
+
 
 
 
@@ -1412,8 +1411,7 @@ plt.show()
     
 
 
-    Peak transmission: 0.0545
-    Resonance wavelength: 1.4646 μm
+
 
 
 

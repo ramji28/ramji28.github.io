@@ -36,8 +36,8 @@ These are the basic on-chip elements for routing and manipulating light.
 
 Coupling light between the chip and the outside world.
 
-- [**Grating Coupler**] – Vertical coupling of light using surface gratings.
-- [**Edge Coupler**] – Efficient fiber-to-chip coupling at the facet.
+- [**Grating Coupler**](/posts/grating_coupler/) – Vertical coupling of light using surface gratings.
+- [**Edge Coupler**](/posts/edge_coupler/) – Efficient fiber-to-chip coupling at the facet.
 
 ---
 
