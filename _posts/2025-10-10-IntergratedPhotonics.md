@@ -28,7 +28,7 @@ These are the basic on-chip elements for routing and manipulating light.
 - [**Y-Branch Splitter**](/posts/ybranch/) – Power splitting using adiabatic Y-junctions.
 - [**Ring Resonator**](/posts/ring_resonator/) – Resonant filtering and wavelength-selective behavior.
 - [**Bragg Grating**](/posts/Bragg_grating/) – Wavelength reflection and filtering with periodic structures.
-- [**Mach–Zehnder Interferometer (MZI)**] – Phase-controlled interferometric filter.
+- [**Mach–Zehnder Interferometer (MZI)**](/posts/mzi_circuit/) – Phase-controlled interferometric filter (Circuit modeling using SAX).
 
 ---
 
@@ -48,6 +48,7 @@ All designs are implemented and simulated using:
 - **KLayout** for GDS visualization and verification
 - **MEEP / MPB** for FDTD and mode simulations
 - **Python** for automated parameter sweeps and post-processing
+- **SAX** for circuit modeling
 
 ---
 
