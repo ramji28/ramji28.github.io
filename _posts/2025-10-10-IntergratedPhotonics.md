@@ -41,6 +41,41 @@ Coupling light between the chip and the outside world.
 
 ---
 
+## ⚙️ Active Components
+
+These devices allow **dynamic control** of light using electrical, thermal, or phase-change mechanisms.
+
+- [**Thermo-Optic MZI Phase Shifter**](/posts/mzi_phase_shifter/) – Tunable phase control using local heating.
+- [**Ring Resonator Phase-Change Switch**](/posts/pcm_switch/) – Non-volatile optical switching using GST layers.
+- [**Photodetector**] – On-chip detection using Ge or Si-based absorption.
+
+Each of these components explores both **device-level simulations** (using MEEP) and **compact modeling** for system integration.
+
+---
+
+## 🔁 Photonic Circuit Modeling
+
+At the circuit level, I use **SAX** and **GDSFactory’s netlist tools** to assemble and simulate multi-component photonic circuits.
+
+- [**MZI Circuit Simulation**](/posts/mzi_circuit/) – Example of a interferometric system modeled using SAX.
+- [**Thermo-Optic MZI Phase Shifter**](/posts/mzi_phase_shifter/) – Tunable phase control using local heating using SAX.
+- [**Ring Filter Bank**] – Modeling cascaded ring resonators and spectral responses.
+- [**Reconfigurable Switch Matrix**] – Demonstration of signal routing using phase shifters and Y-branches.
+
+The focus is on **hierarchical circuit design**, **port-based modeling**, and integration of **measured or simulated S-parameters** for realistic performance prediction.
+
+---
+
+## 🧬 Inverse Design & Topology Optimization
+
+To push performance beyond conventional geometries, I’ve been exploring **inverse design** techniques using **topology optimization**.
+
+- [**Inverse-Designed Grating Coupler**] – A grating structure optimized using adjoint-based topology optimization to maximize coupling efficiency between a fiber mode and on-chip waveguide.
+- [**Optimized 2×2 MMI Coupler**] – Compact multi-mode interference coupler designed via gradient-based inverse optimization for equal power splitting and phase control.
+
+These designs employ **adjoint sensitivity analysis** to efficiently compute gradients with respect to material distribution, enabling automated discovery of non-intuitive geometries that outperform traditional hand-designed structures.
+
+
 ## 🧱 Modeling and Tools
 
 All designs are implemented and simulated using:
