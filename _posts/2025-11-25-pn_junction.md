@@ -10,7 +10,7 @@ image:
   path: /assets/images/misc/pn_junction.png  
   alt: "Straight waveguide with PN junciton GDSFactory"  
 ---
-
+{% include warning.html %}
 <details markdown="1">
 <summary>Source Code</summary>
 <br/>

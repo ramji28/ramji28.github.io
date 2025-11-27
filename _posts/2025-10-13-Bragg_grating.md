@@ -12,7 +12,7 @@ image:
 ---
 
 # Waveguide Bragg Grating
-
+{% include warning.html %}
 <details markdown="1">
 <summary>Source Code</summary>
 <br/>

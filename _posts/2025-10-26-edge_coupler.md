@@ -11,7 +11,7 @@ image:
   alt: "Adiabatic tapper construted in GDSFactory"  
 ---
 # Edge coupler
-
+{% include warning.html %}
 <details markdown="1">
 <summary>Source Code</summary>
 <br/>

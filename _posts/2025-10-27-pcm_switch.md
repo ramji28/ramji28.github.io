@@ -9,7 +9,7 @@ image:
 math: true
 pin: false
 ---
-
+{% include warning.html %}
 ## 🌀 Overview
 
 This post presents the design and simulation of a **Ring Resonator - Phase-Change Switch**, modeled using **CST Microwave Studio**.  

@@ -10,6 +10,7 @@ image:
   path: /assets/images/misc/mzi_phase_shifter.png  
   alt: "MZI phase shifter with heater metal construted in GDSFactory"  
 ---
+{% include warning.html %}
 # MZI Phase shifter Heater model
 
 Varying the phase by application of volatge

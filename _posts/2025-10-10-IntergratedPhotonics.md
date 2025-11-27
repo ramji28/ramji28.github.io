@@ -12,6 +12,7 @@ image:
   alt: "Splitter to DBR created with GDSFactory"  
 
 ---
+{% include warning.html %}
 
 Over the past few weeks, I’ve been working on designing and modeling several **integrated photonics components** using tools like **GDSFactory**, **KLayout**, and **MEEP**.
 The goal is to create a complete library of fundamental photonic building blocks and study their optical performance through simulation.

@@ -10,9 +10,8 @@ image:
   path: /assets/images/misc/ring_resonator.png  
   alt: "Ring Resonator from GDSFactory"  
 ---
-
 # Ring Resonantor
-
+{% include warning.html %}
 <details markdown="1">
 <summary>Source Code</summary>
 <br/>

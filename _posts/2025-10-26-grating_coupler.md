@@ -11,7 +11,7 @@ image:
   alt: "Focused grating construted in GDSFactory"  
 ---
 # Grating couplers
-
+{% include warning.html %}
 <details markdown="1">
 <summary>Source Code</summary>
 <br/>

@@ -1,0 +1,66 @@
+<div class="note-banner">
+  <div class="note-content">
+    <svg class="note-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="12" y1="16" x2="12" y2="12"></line>
+      <line x1="12" y1="8" x2="12.01" y2="8"></line>
+    </svg>
+    <div class="note-text">
+      <strong>Note:</strong> The device designs presented here are intended as proof-of-concept examples to illustrate workflows, modeling approaches, and design methodology. Performance metrics are not optimized, and the structures are not intended for tape-out.
+    </div>
+  </div>
+</div>
+
+<style>
+.note-banner {
+  background: linear-gradient(135deg, #e3f2fd 0%, #e1f5fe 100%);
+  border-left: 4px solid #2196f3;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.note-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.note-icon {
+  width: 24px;
+  height: 24px;
+  color: #2196f3;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.note-text {
+  color: #0d47a1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.note-text strong {
+  color: #2196f3;
+}
+
+/* Dark mode support for Chirpy theme */
+[data-mode="dark"] .note-banner {
+  background: linear-gradient(135deg, #1a2332 0%, #1e2a3a 100%);
+  border-left-color: #42a5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+[data-mode="dark"] .note-icon {
+  color: #42a5f5;
+}
+
+[data-mode="dark"] .note-text {
+  color: #bbdefb;
+}
+
+[data-mode="dark"] .note-text strong {
+  color: #42a5f5;
+}
+</style>
