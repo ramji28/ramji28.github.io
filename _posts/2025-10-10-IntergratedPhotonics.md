@@ -48,6 +48,7 @@ These devices allow **dynamic control** of light using electrical, thermal, or p
 
 - [**Thermo-Optic MZI Phase Shifter**](/posts/mzi_phase_shifter/) – Tunable phase control using local heating.
 - [**Ring Resonator Phase-Change Switch**](/posts/pcm_switch/) – Non-volatile optical switching using GST layers.
+- [**PN Junction Modulator**](/posts/pn_junction/) – Electro-optic modulation using carrier-depletion in a pn junction with TCAD simulation.
 - [**Photodetector**] – On-chip detection using Ge or Si-based absorption.
 
 Each of these components explores both **device-level simulations** (using MEEP) and **compact modeling** for system integration.
@@ -58,8 +59,23 @@ Each of these components explores both **device-level simulations** (using MEEP)
 
 At the circuit level, I use **SAX** and **GDSFactory’s netlist tools** to assemble and simulate multi-component photonic circuits.
 
+---
+
+### ⭐ Featured: [CWDM using Cascaded MZI](/posts/cwdm_mzi/)
+
+A **coarse wavelength division multiplexer** designed using cascaded Mach-Zehnder interferometers for multi-channel wavelength separation. This flagship project showcases:
+
+- 🔬 **Complete modeling pipeline**: FDTD characterization (MEEP) → Circuit assembly (SAX)
+- 🎯 **FSR engineering** for precise channel spacing
+- 🏗️ **Hierarchical design** from individual MZI blocks to full system integration
+- 📡 Real-world **WDM communication** system demonstration
+
+---
+
 - [**MZI Circuit Simulation**](/posts/mzi_circuit/) – Example of a interferometric system modeled using SAX.
 - [**Thermo-Optic MZI Phase Shifter**](/posts/mzi_phase_shifter/) – Tunable phase control using local heating using SAX.
+
+
 - [**Ring Filter Bank**] – Modeling cascaded ring resonators and spectral responses.
 - [**Reconfigurable Switch Matrix**] – Demonstration of signal routing using phase shifters and Y-branches.
 
