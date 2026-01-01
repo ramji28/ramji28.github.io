@@ -49,7 +49,7 @@ These devices allow **dynamic control** of light using electrical, thermal, or p
 - [**Thermo-Optic MZI Phase Shifter**](/posts/mzi_phase_shifter/) – Tunable phase control using local heating.
 - [**Ring Resonator Phase-Change Switch**](/posts/pcm_switch/) – Non-volatile optical switching using GST layers.
 - [**PN Junction Modulator**](/posts/pn_junction/) – Electro-optic modulation using carrier-depletion in a pn junction with TCAD simulation.
-- [**Ring Modulator**](/posts/pn_junction_ring/) – Electro-optic modulation in ring resowith TCAD simulation.
+- [**Ring Modulator**](/posts/pn_junction_ring/) – Electro-optic modulation in ring resonator with TCAD simulation.
 - [**Photodetector**] – On-chip detection using Ge or Si-based absorption.
 
 Each of these components explores both **device-level simulations** (using MEEP) and **compact modeling** for system integration.
